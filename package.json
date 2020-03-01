@@ -1,0 +1,30 @@
+{
+  "name": "url_shortner",
+  "version": "1.0.0",
+  "description": "### This is the repository which is created for the url shortner.",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aashishkushwaha/url_shortner_wds.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aashishkushwaha/url_shortner_wds/issues"
+  },
+  "homepage": "https://github.com/Aashishkushwaha/url_shortner_wds#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.2",
+    "shortid": "^2.2.15"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
